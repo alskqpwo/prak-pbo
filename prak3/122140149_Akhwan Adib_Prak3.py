@@ -27,7 +27,7 @@ Dagangan1 = Dagangan("Galon Aqua 19L", 32, 17000)
 Dagangan2 = Dagangan("Gas LPG 5 kg", 22, 88000)
 Dagangan3 = Dagangan("Beras Ramos 5 kg", 13, 68000)
 Dagangan.liat_barang()
-print(f"\n{Dagangan1._Dagangan__nama} dihapus dari toko!")
+print(f"\n{Dagangan1._Dagangan__nama} dihapus dari toko!\n")
 del Dagangan1
 
 Dagangan.liat_barang()
