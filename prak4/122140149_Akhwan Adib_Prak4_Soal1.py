@@ -10,7 +10,7 @@ class Hewan():
         print(f"{self.__class__.__name__} {self.nama} sedang makan: tulang")
     
     def minum(self):
-        print(f"{self.__class__.__name__} {self.nama} sedang minum: air")
+        pass
 
 class Kucing(Hewan):
     def bersuara(self):
